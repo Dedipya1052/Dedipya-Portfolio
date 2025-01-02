@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dedipya's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <a href="https://github.com/Dedipya1052/Dedipya-s-Portfolio" class="logo">Dedipya's Portfolio</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <header id="hero">
+        <div class="container">
+            <img src="MyPic.png" alt="Sampangi Dedipya" class="profile-photo">
+            <div class="portfolio-header">
+                <h1>Sampangi Dedipya</h1>
+                <h2 id="designation"></h2>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Dedipya1052" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span class="tooltip">GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="tooltip">LinkedIn</span>
+                </a>
+                <a href="https://leetcode.com/u/Sampangi_Dedipya/" target="_blank">
+                    <i class="fas fa-code"></i>
+                    <span class="tooltip">LeetCode</span>
+                </a>
+                <a href="https://www.hackerrank.com/profile/dedipyasampangi" target="_blank">
+                    <i class="fas fa-laptop-code"></i>
+                    <span class="tooltip">HackerRank</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1VkS1IIdqODKH_61CWTytBKb39RZqCHlJ/view?usp=drive_link"
+                    target="_blank">
+                    <i class="fas fa-file-alt"></i>
+                    <span class="tooltip">Resume</span>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2 class = section-title>About Me</h2>
+            <p>Hello! I'm Sampangi Dedipya, a passionate and enthusiastic software developer with a strong focus on  full-stack Web development, and solving real-world problems through code. With a background in computer science and hands-on experience in building dynamic applications, I thrive on challenges and continuously seek to enhance my skills and knowledge.</p>
+            <p>I specialize in Full-Stack Development, and Basic of AIML. Over the years, I've worked on various projects that have sharpened my technical and problem-solving abilities. Whether it's designing intuitive user interfaces, creating scalable back-end systems, or developing machine learning models, I am constantly striving to improve and deliver solutions that make a difference.</p>
+            <p>In my free time, I enjoy exploring new technologies, contributing to open-source projects, and solving problems on platforms like LeetCode and HackerRank. I believe in continuous learning and have a keen interest in staying up-to-date with the latest industry trends, tools, and frameworks.
+</p>
+            <p>Through my professional experiences, including internships and personal projects, I’ve developed a deep understanding of AI algorithms, web development, database management, and software engineering best practices. My goal is to contribute to impactful projects that leverage technology to create a positive influence on businesses and society.
+</p>
+            <p>If you're interested in collaborating, discussing ideas, or just having a tech conversation, feel free to reach out. Let's build something amazing together!
+</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title">Education Journey</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Bachelor's Degree</h3>
+                        <p style="text-align: center;">Computer Science and Engineering</p>
+                    </div>
+
+                    <div class="card-back">
+                        <h3>SR University</h3>
+                        <p>2022-2026</p>
+                        <p>GPA: 9.57</p>
+                                 </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-university"></i>
+                        <h3>Intermediate</h3>
+                        <p>MPC</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Sr Prime Collage</h3>
+                        <p>2020-2022</p>
+                        <p>Marks: 900 / 1000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-university"></i>
+                        <h3>Schooling</h3>
+                        <p>SSC</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>St peter's central public school (CBSE) </h3>
+                        <p>2020</p>
+                        <p>Score: 406/500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class = section-title>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3> Digital Blood bank System</h3>
+                    <p class="project-tech">Python, HTML, Css,js,sql,web-technologies, Numpy, Scikit learn, MatplotLib</p>
+                    <p>Delivered a fully functional BloodBank System.
+Created a website to connect the blood recepetions and needy at a same place.
+Gained hands-on experience in website development, Html,css,js and backend development.
+Collaborated effectively with a teammate to meet client requirements.
+Learned to work under tight deadlines while ensuring quality delivery.
+Improved website traffic by optimizing SEO strategies.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" class="btn">View Project</a> -->
+                        <a href="https://github.com/Dedipya1052/Digital-Blood-Bank-System"
+                            class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Railway Reservation system</h3>
+                    <p class="project-tech">HTML, Css, Django, Python, js,NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn,
+Jupyter Notebook, Google Colab, Google Workspace Tools
+</p>
+                    <p>Gained proficiency in Creating websites on real world constrains.
+Applied DJango and python and connected backend to make things dynamic and user-friendly.
+Developed and implemented multiple real world website models using Django and python.
+Contributed to 4 knowledge-sharing sessions with peers.
+Explored new trending technologies and projects.
+</p>
+                    <div class="project-links">
+                        <!-- <a href="#" class="btn">View Project</a> -->
+                        <a href="https://github.com/Dedipya1052/Railway-Reservation-System" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>LadyLens</h3>
+                    <p class="project-tech">html,figma,js,css,backend:sql webtechnolgies for connecting fronrend and backend.
+</p>
+                    <p>it is a website used to track the periods and give recommendations to women for better health
+technologies
+                    </p>
+                    <div class="project-links">
+                        <a href="https:github.com/Dedipya1052/Railway-Reservation-System" class="btn">Visit Website</a>
+                        <a href="https:github.com/Dedipya1052/Railway-Reservation-System" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3> Voting System</h3>
+                    <p class="project-tech">HTML, CSS, JavaScript, MySQL, Apache Server, Visual Studio
+                        Code</p>
+                    <p>candidate nomination
+vote to candidate
+count votes
+voter id creation
+uopdate voter id details
+using python
+</p>
+                    <div class="project-links">
+                       <a https://github.com/Dedipya1052/Railway-Reservation-System" class="btn">Visit Website</a>
+                       <a href="https://github.com/Dedipya1052/Railway-Reservation-System" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                </div>
+    </section>
+
+    <!-- <section id="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+
+
+
+                        <h3>Frontend Developer</h3>
+                        <p class="company">NIT Warangal</p>
+                        <p class="date">06-July-2024 - 26-July 2024</p>
+                        <ul>
+                            <li>Delivered a fully functional BloodBank System.</li>
+                            <li>Created a website to connect the blood recepetions and needy at a same place.</li>
+                            <li>Gained hands-on experience in website development, Html,css,js and backend development.</li>
+                            <li>Collaborated effectively with a teammate to meet client requirements.</li>
+                            <li>Learned to work under tight deadlines while ensuring quality delivery.</li>
+<li>Improved website traffic by optimizing SEO strategies.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Full Stack Intern</h3>
+                        <p class="company">Avishkar Tech solutions</p>
+                        <p class="date">July 2024 - Sept 2024</p>
+                        <ul>
+                            <li>Gained proficiency in Creating websites on real world constrains.</li>
+                            <li>Applied DJango and python and connected backend to make things dynamic and user-friendly.</li>
+                            <li>Developed and implemented multiple real world website models using Django and python.</li>
+                            <li>Explored new trending technologies and projects.</li>
+                       </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI Development Intern</h3>
+                        <p class="company">AICTE</p>
+                        <p class="date">Oct 2024 - Nov 2024</p>
+                        <ul>
+                            <li>Engaged in hands-on exercises to solidify theoretical knowledge.
+</li>
+                            <li>Strengthened expertise in AI concepts and their applications in real-world scenarios.
+<li>
+                            <li>Explored various model selection techniques to identify optimal algorithms.
+</li>
+                            <li>Worked alongside 15-20 peers under the mentorship of an AI expert.
+</li>
+                            <li>Gained insights into effective feature engineering techniques.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="timeline-section" id="experience">
+        <h2 class = section-title>Experience</h2>
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item" data-id="1">
+                    <div class="timeline-logo">
+                        <img src="NIT.jpg" alt="Company 1">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Frontend Developer</h3>
+                        <h4>NIT Warangal</h4>
+                        <p>06-July-2024 - 26-July 2024</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-id="2">
+                    <div class="timeline-logo">
+                        <img src="Avishkar.jpg" 
+alt="Company 2">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Intern</h3>
+                        <h4>Avishkar Tech solutions</h4>
+                        <p>June 2024 - July 2024</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-id="3">
+                    <div class="timeline-logo">
+                        <img src="infosys.png" alt="Company 3">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>AI Development Intern</h3>
+                        <h4>AICTE</h4>
+                        <p>NOV 2024 - Dec 2024</p>
+                        <button class="read-more">Detailed View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <section id="skills">
+        <div class="skills-container">
+            <h2 class = section-title>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                                                                        <li><i class="fab fa-java"></i> Java</li>
+                        <li><i class="fas fa-code"></i> C</li>
+                        <li><i class="fas fa-database"></i> SQL</li>
+                                            </ul>
+                </div>                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fas fa-server"></i> Apache</li>
+                        <li><i class="fab fa-aws"></i> AWS</li>
+                        <li><i class="fas fa-database"></i> MySql</li>
+                         <li><i class="fas fa-book"></i> Jupyter notebook</li>
+                        <li><i class="fas fa-chart-bar"></i> Kaggle</li>
+                        <li><i class="fas fa-code"></i> Visual Stuidio</li>
+
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-brain"></i> Strategic Thinking</li>
+                        <li><i class="fas fa-clock"></i> Time Management</li>
+                        <li><i class="fas fa-user-tie"></i> Leadership</li>
+                        <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+                        <li><i class="fas fa-tasks"></i> Project Management</li>
+                        <li><i class="fas fa-lightbulb"></i> Willingness to Learn</li>
+                        <li><i class="fas fa-paint-brush"></i> Creativity</li>
+                        <li><i class="fas fa-puzzle-piece"></i> Problem-Solving</li>
+                        <li><i class="fas fa-users"></i> Teamwork</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="stats">
+        <div class="container">
+            <h2 class = section-title>Impact & Achievements</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">Research Papers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">85%</div>
+                    <div class="stat-label"> Growth in Technical Knowledge</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Hours of Learning and Development</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section id="research">
+        <h2 class="section-title">Research Papers</h2>
+        <div class="research-container">
+            <div class="research-paper">
+                <div class="paper-content">
+                    <h3>Machine Learning in Healthcare</h3>
+                    <p>Published in IEEE 2022</p>
+                    <div class="paper-details">
+                        <p>A comprehensive study on implementing ML algorithms in diagnostic procedures.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-paper">
+                <div class="paper-content">
+                    <h3>Neural Networks Architecture</h3>
+                    <p>Published in Nature 2021</p>
+                    <div class="paper-details">
+                        <p>Novel approaches to neural network design for improved efficiency.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>dedipyasampangi1052@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 9391949081</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i>
+                    <p>Warangal, Telangana, India</p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <button id="upButton" onclick="scrollToTop()">↑</button>
+
+
+    <!-- <section id="testimonials">
+        <div class="container">
+            <h2>What People Say</h2>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"John's expertise in AI and machine learning helped us achieve breakthrough results in our project. His technical skills and problem-solving abilities are exceptional."</p>
+                    <p class="testimonial-author">- Dr. Sarah Johnson, Research Director</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Working with John was a game-changer for our startup. His innovative solutions and dedication to quality delivered outstanding results."</p>
+                    <p class="testimonial-author">- Michael Chen, CEO TechStart</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> email@example.com</p>
+                    <p><i class="fas fa-location-dot"></i> City, Country</p>
+                </div>
+                <form id="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sampangi Dedipya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
